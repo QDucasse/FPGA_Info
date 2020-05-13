@@ -6,7 +6,9 @@ This is a list of different issues I encountered while trying to set up the Zedb
 
 ## Zedboard-7000
 
-1. ***SDK* or *Vitis* is not launching** : When launching the *SDK* or *Vitis* in the latest versions of Vivado, you might encounter an error such as:
+1. **Installation hangs at device list generation**: The final step of the *Vivado* installation is the generation of the installed device list. If your installation is stuck on `generating installed device list`, the solution is to reinstall *Vivado*, ticking all the options in the last portion of the installer, especially *Webtalk, send anonymous reports, etc.*
+
+2. ***SDK* or *Vitis* is not launching** : When launching the *SDK* or *Vitis* in the latest versions of Vivado, you might encounter an error such as:
 
    ```bash
    $ vitis
@@ -32,7 +34,7 @@ This is a list of different issues I encountered while trying to set up the Zedb
 
    
 
-2. **Platform issue when exporting your design from *Vivado* to *Vitis*:** When exporting your hardware design from *Vivado* to *Vitis*, you might have an issue running it. The error message will look like:
+3. **Platform issue when exporting your design from *Vivado* to *Vitis*:** When exporting your hardware design from *Vivado* to *Vitis*, you might have an issue running it. The error message will look like:
 
    ```vivado
    Platform <platform_name>.xpfm is invalid
@@ -58,7 +60,7 @@ This is a list of different issues I encountered while trying to set up the Zedb
 
    The corresponding forum answer is **[2]**.
 
-3. 
+4. 
 
  
 
